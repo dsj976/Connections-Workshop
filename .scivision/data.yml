@@ -1,0 +1,16 @@
+sources:
+  test_image:
+      description: Load a single Koala
+      driver: intake_xarray.image.ImageSource
+      args:
+        urlpath: 'https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Cutest_Koala.jpg/262px-Cutest_Koala.jpg'
+  airport:
+      description: Load a single image of a busy airport
+      driver: intake_xarray.image.ImageSource
+      args:
+        urlpath: 'https://www.publicdomainpictures.net/pictures/20000/nahled/busy-airport-29612984981428BP.jpg'
+  dog_cat:
+      description: Load a single image of a dog and a cat
+      driver: intake_xarray.image.ImageSource
+      args:
+        urlpath: 'https://imgs.classicfm.com/images/33669?crop=16_9&width=660&relax=1&signature=_QehZfwdjLTgjqUs4nlMS4wCV6E='
